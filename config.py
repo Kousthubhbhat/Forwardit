@@ -9,7 +9,7 @@ class Config:
     
     API_ID = int(os.environ.get("API_ID", "20574097"))
     API_HASH = os.environ.get("API_HASH" , "278d1014e386425e05d2d67cc62a5ac7")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "2108427614:AAFgNBxwh8kOAAWu8Jyaqy1Puv3O5XCT7K8") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", None)
